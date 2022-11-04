@@ -8,8 +8,6 @@ a {
 }
 /* formatação do corpo da página */ 
 body {
-  max-width: 800px;
-  max-height: 600px;
   background-color: #1b1b1b;
   margin: 0;
   padding: 0;
