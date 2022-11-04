@@ -348,7 +348,11 @@ section .img span {
 
 .imagem{
   max-width: 400px;
+  max-height: 400px;
 }
-
+.vertical{
+  margin-top: 10px;
+  writing-mode: vertical-rl;
+}
 
 /* ! */
