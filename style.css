@@ -267,7 +267,7 @@ section .title span a::after {
 .box:hover { flex: 1 1 50%; }
 
 .img{
-  padding: 20px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,8 +279,8 @@ section .title span a::after {
   margin-bottom: 10px;
   border-radius: 100px 30px 150px 100px;
   animation: byBottom 1s ease both;
-  height: 280px;
-  width: 200px;
+  height: 200px;
+  width: 160px;
 }
 section .img span {
   padding-right: 30px;
