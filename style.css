@@ -260,7 +260,7 @@ section .title span a::after {
 }
 
 .box > span {
-  background-color: red;
+  writing-mode: vertical-rl;
   font-size: 3.8vh;
   display: block;
   text-align: center;
@@ -268,6 +268,7 @@ section .title span a::after {
   line-height: 2.6;
   color: white; 
   margin-bottom: 50px;
+  
 }
 .box:hover { flex: 1 1 50%; }
 
