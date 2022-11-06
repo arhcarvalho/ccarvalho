@@ -239,7 +239,7 @@ section .title span a::after {
 }
 .container:hover{
   opacity: 1;
-  min-height: 400px;
+  min-height: 500px;
 }
 .box {
   animation: byBottom 1s ease both;
@@ -260,12 +260,14 @@ section .title span a::after {
 }
 
 .box > span {
+  background-color: red;
   font-size: 3.8vh;
   display: block;
   text-align: center;
   height: 10vh;
   line-height: 2.6;
   color: white; 
+  padding: 10px;
 }
 .box:hover { flex: 1 1 50%; }
 
