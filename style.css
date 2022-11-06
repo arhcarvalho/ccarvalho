@@ -239,6 +239,7 @@ section .title span a::after {
 }
 .container:hover{
   opacity: 1;
+  min-height: 400px;
 }
 .box {
   animation: byBottom 1s ease both;
