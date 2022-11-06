@@ -239,7 +239,7 @@ section .title span a::after {
 }
 .container:hover{
   opacity: 1;
-  min-height: 500px;
+
 }
 .box {
   animation: byBottom 1s ease both;
@@ -270,7 +270,7 @@ section .title span a::after {
   margin-bottom: 50px;
   
 }
-.box:hover { flex: 1 1 50%; }
+.box:hover { flex: 1 1 40%; }
 
 .img{
   margin-top: 0px;
@@ -365,7 +365,6 @@ section .img span {
 .vertical{
   margin-bottom: 50px;
   margin-top: 10px;
-  text-align: justify;
 }
 
 /* ! */
