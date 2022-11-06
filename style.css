@@ -267,7 +267,7 @@ section .title span a::after {
   height: 10vh;
   line-height: 2.6;
   color: white; 
-  padding: 10px;
+  margin-bottom: 50px;
 }
 .box:hover { flex: 1 1 50%; }
 
@@ -362,6 +362,7 @@ section .img span {
   max-height: 400px;
 }
 .vertical{
+  margin-bottom: 50px;
   margin-top: 10px;
   text-align: justify;
 }
