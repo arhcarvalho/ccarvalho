@@ -366,3 +366,16 @@ section .img span {
 }
 
 /* ! */
+
+.footer{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #efefef;
+  text-transform: uppercase; /* colocar tudo em maiúsculas */
+  animation: byBottom 1s ease both; /* animação ao entrar na página */
+  font-weight: 600;
+  letter-spacing: 0.25vw;
+}
