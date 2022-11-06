@@ -299,15 +299,21 @@ section .img span {
 .number{
   cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
   flex-direction: row;
   margin-top: 5px;
+}
+.number .chamada{
+  height: 50px;
+  width: 50px;
 }
 .number:hover > h2{
   visibility: visible;
 }
 .number h2{
   visibility: hidden;
-  margin-left: 10px;
+  margin-right: 10px;
   font-size: 14px;
 }
 
