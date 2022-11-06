@@ -6,6 +6,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: byBottom 1s ease both; /* animação ao entrar na página */
 }
 /* formatação do corpo da página */ 
 body {
@@ -73,11 +74,9 @@ nav li:nth-child(6) {
 nav li:nth-child(7) {
   animation: pop 0.5s 1.05s 1 forwards;
 }
-nav li:hover {
-  color: yellow;
-}
+
 section {
-  margin-top: 120px ;
+  margin-top: 120px;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -242,7 +241,6 @@ section .title span a::after {
   opacity: 1;
 }
 .box {
-  height: 400px;
   animation: byBottom 1s ease both;
   flex: 1;
   overflow: hidden;
@@ -362,7 +360,7 @@ section .img span {
 }
 .vertical{
   margin-top: 10px;
-  writing-mode: vertical-rl;
+  text-align: justify;
 }
 
 /* ! */
@@ -379,3 +377,4 @@ section .img span {
   font-weight: 600;
   letter-spacing: 0.25vw;
 }
+
