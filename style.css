@@ -259,8 +259,8 @@ section .title span a::after {
   margin-bottom: 10px;
   border-radius: 100px 30px 150px 100px;
   animation: byBottom 1s ease both;
-  height: 200px;
-  width: 160px;
+  height: 210px;
+  width: 150px;
 }
 section .img span {
   padding-right: 30px;
